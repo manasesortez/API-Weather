@@ -38,7 +38,6 @@ public class Main {
             Map<String, Object> mainMap = jsonToMap(resMap.get("main").toString());
 
             System.out.println("\nAirport Oscar Arnulfo Romero - SLV: \n");
-            System.out.println("\nAirport Oscar Arnulfo Romero - SLV: \n");
             System.out.println("Current Temperature: "+ mainMap.get("temp")+ "ºC");
             System.out.println("Current Humidity: "+ mainMap.get("humidity")+ "%");
 
